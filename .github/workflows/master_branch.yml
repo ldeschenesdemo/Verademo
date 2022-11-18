@@ -64,7 +64,7 @@ jobs:
         VERACODE_API_KEY_SECRET: '${{ secrets.VERACODE_API_KEY }}'
       id: import_flaws
       with:
-        app_name: 'Verademo'
+        app_name: 'Verademo-JAVA'
 
     - uses: actions/upload-artifact@master
       with:
